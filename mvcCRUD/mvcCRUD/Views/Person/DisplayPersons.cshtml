@@ -1,0 +1,40 @@
+﻿@model IEnumerable<mvcCRUD.Models.Domain.Person>
+@{
+}
+<div class="mt-2" style="width:50%">
+
+    <div class="row">
+        <h1> Person List... </h1>
+        <div class="col-md-4">
+            <a href="/Person/AddPerson" class="btn btn-primary"> Add new person </a>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th colspan="2"> Action</th>
+                </tr>
+                @foreach (var person in Model)
+                {
+                    <tr>
+                        <td>
+                            @person.Name
+                        </td>
+                        <td>
+                            @person.Email
+                        </td>
+                        <td>
+                            <a class="btn btn-success" href="/Person/EditPerson?id=@person.Id">Edit</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger" href="/person/DeletePerson?id=@person.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </thead>
+        </table>
+    </div>
+
+
+</div>

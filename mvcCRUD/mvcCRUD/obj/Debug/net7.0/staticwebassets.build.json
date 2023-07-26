@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "WoSBlaRofvH4ZjJMPlbpYXIV73j6m/aGPMabQv28ZpE=",
+  "Source": "mvcCRUD",
+  "BasePath": "_content/mvcCRUD",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "mvcCRUD\\wwwroot",
+      "Source": "mvcCRUD",
+      "ContentRoot": "C:\\Users\\wwwsd\\source\\repos\\mvcCRUD\\mvcCRUD\\wwwroot\\",
+      "BasePath": "_content/mvcCRUD",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\wwwsd\\source\\repos\\mvcCRUD\\mvcCRUD\\wwwroot\\favicon.ico",
+      "SourceId": "mvcCRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wwwsd\\source\\repos\\mvcCRUD\\mvcCRUD\\wwwroot\\",
+      "BasePath": "_content/mvcCRUD",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}
